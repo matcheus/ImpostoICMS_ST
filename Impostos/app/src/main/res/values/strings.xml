@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Impostos</string>
+    <string-array name="estados_array">
+        <item>SP</item>
+        <item>MT</item>
+        <item>MG</item>
+        <item>GO</item>
+    </string-array>
+</resources>
