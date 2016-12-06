@@ -22,6 +22,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
     private EditText textValorProduto;
     private EditText textDespesas;
     private TextView resultado;
+    private TextView melhorRota;
     private double valorProduto;
     private double despesas;
     private final double mva = 0.3;
@@ -72,6 +73,9 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         String result = String.format("%.2f",ICMS_ST);
         resultado.setText("R$ " + result);
         resultado.invalidate();
+        melhorRota = (TextView) findViewById(R.id.melhorRota);
+        melhorRota.setText("Melhor rota: MT");
+        melhorRota.invalidate();
     }
 
     private void botaoCalcular() {

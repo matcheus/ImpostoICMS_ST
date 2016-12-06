@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Impostos</string>
+    <string name="app_name">Imposto ICMS ST</string>
     <string-array name="estados_array">
         <item>SP</item>
         <item>MT</item>
